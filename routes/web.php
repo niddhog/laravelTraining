@@ -12,7 +12,12 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//Post, Get, Post, Put, Update routes are available
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('/about', function () {
+    return view('information');
 });

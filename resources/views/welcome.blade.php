@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    This is Chris's Rumbl Bumble Machine
                 </div>
 
                 <div class="links">

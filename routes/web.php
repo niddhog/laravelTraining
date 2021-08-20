@@ -21,3 +21,9 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('information');
 });
+
+Route::get('/robular', function () {
+    return view('formular');
+});
+
+Route::post('/data', 'FormularController@formularAuswerten');
